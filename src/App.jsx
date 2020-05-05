@@ -11,16 +11,16 @@ import CondicionalComIf from './components/basicos/CondicionalComIf'
 
 export default (props) => (
   <div className="App">
-    <Card titulo="#06 - Condicional Com If">
+    <Card titulo="#06 - Condicional Com If" color="#FA6900">
       <CondicionalComIf numero={12}></CondicionalComIf>
     </Card>
-    <Card titulo="#05 - Condicional">
+    <Card titulo="#05 - Condicional" color="#A7226E">
       <Condicional numero={11}></Condicional>
     </Card>
-    <Card titulo="#04 - Repetição">
+    <Card titulo="#04 - Repetição" color="#EC2049">
       <Repeticao></Repeticao>
     </Card>
-    <Card titulo="#03 - Componente com Filhos">
+    <Card titulo="#03 - Componente com Filhos" color="#F26B38">
       <ComFilhos>
         <ul>
           <li>Ana</li>
@@ -29,12 +29,12 @@ export default (props) => (
         </ul>
       </ComFilhos>
     </Card>
-    <Card titulo="#02 - Componente com Parametro">
+    <Card titulo="#02 - Componente com Parametro" color="#F7DB4F">
       <ComParametro
         titulo="Esse é o titulo"
         subtitulo="Esse é o subtitulo" />
     </Card>
-    <Card titulo="#01 - Primeiro componente">
+    <Card titulo="#01 - Primeiro componente" color="#2F9599">
       <Primeiro />
     </Card>
   </div>
