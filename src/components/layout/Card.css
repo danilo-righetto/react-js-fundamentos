@@ -5,8 +5,10 @@
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff;
+
     display: flex;
     flex-direction: column;
+    min-width: 300px;
 }
 
 .Card .Conteudo {
