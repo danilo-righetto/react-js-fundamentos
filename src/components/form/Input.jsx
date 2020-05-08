@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default (props) => {
-    const [nome, setNome] = useState();
+    const [nome, setNome] = useState('Danilo Righetto');
     return (
         <div>
             <h3>{nome}</h3>
